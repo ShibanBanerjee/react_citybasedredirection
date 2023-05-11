@@ -20,7 +20,7 @@ const App = () => {
 
   useEffect(() => {
     async function loadClientCity() {
-      const city = await fetchClientCity();
+      const city = await fetchClientCity('4c46c7a6ff51426dbfb3a0933d79d12c');
       setClientCity(city);
     }
 
